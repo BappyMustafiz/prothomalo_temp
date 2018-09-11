@@ -1,0 +1,28 @@
+.sidenav-overlay{
+  z-index:996;
+}
+nav{
+  height: 68px !important;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px -2px rgba(0, 0, 0, 0.12), 0 1px 0px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow:0 0px 0px 0 rgba(0, 0, 0, 0.14), 0 0px 0px -2px rgba(0, 0, 0, 0.12), 0 1px 0px 0 rgba(0, 0, 0, 0.2);
+}
+nav ul a,
+nav {
+  color: #444;
+}
+nav .brand-logo {
+    margin:6px; 
+}
+
+nav .sidenav-trigger {
+    margin: 6px 5px;
+    color: red;
+}
+nav ul a:hover {
+    background: #efefec;
+    border-bottom: 4px solid #d84315;
+}
+.top-news-image a{
+  background-image: url(../img/1.jpg);
+  background-position: center;
+}
