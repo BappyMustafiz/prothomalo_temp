@@ -26,3 +26,52 @@ nav ul a:hover {
   background-image: url(../img/1.jpg);
   background-position: center;
 }
+.left-main-news{
+  position: relative;
+}
+.left-main-news p{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    color: #ffc107;
+}
+.left-main-news p:hover{
+    color: #f9fbe7;
+}
+.card .card-content {
+    padding: 9px; 
+}
+.card .card-content p{
+    padding: 9px;
+    font-size: 21px;
+    color: black;
+    font-weight: 500;
+     border-radius: 0px; 
+}
+.card .card-content p:hover{
+  color: #0288d1;
+}
+.link-category{
+  padding-bottom: 10px;
+}
+.link-category a{
+    border-left: 2px solid #ef3f23;
+    color: #424242;
+    margin-left: 15px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.link-category a:hover{
+    text-decoration: underline;
+}
+.container-wrapper{
+  background-color: #f0f0ed;
+}
