@@ -14,6 +14,9 @@
     	alignment: 'left',
     	stopPropagation: false
     });
+    // tabs
+    $('.tabs').tabs();
+    $('.slider').slider();
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

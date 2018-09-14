@@ -10,47 +10,91 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-- main navbar start-->
-    <div class="navbar-fixed">
-        <nav class="white">
-            <div class="nav-wrapper container">
-                <a href="index.html" class="brand-logo"><img src="img/logo.png" alt="logo"></a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a class="dropdown-button" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <!-- Dropdown Structure -->
-                    <ul id="dropdown1" class="dropdown-content">
-                        <li><a href="#!">one</a></li>
-                        <li><a href="#!">two</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#!">three</a></li>
-                    </ul>
+  <!-- main navbar start-->
+  <div class="navbar-fixed">
+    <nav class="white">
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo"><img src="img/logo.png" alt="logo"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a class="dropdown-button" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                <!-- Dropdown Structure -->
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">one</a></li>
+                    <li><a href="#!">two</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">three</a></li>
                 </ul>
-                <!-- mobile navbar start-->
-                <ul class="sidenav" id="mobile-demo">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                </ul>
-                <!-- mobile navbar end-->
+            </ul>
+            <!-- mobile navbar start-->
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+            </ul>
+          <!-- mobile navbar end-->
+      </div>
+    </nav>
+  </div>
+  <!-- main navbar end-->
+  <!-- search,login section start -->
+  <section class="container-wrapper">  
+    <div class="container">
+    <div class="section">
+        <div class="row">
+          <div class="col m4 s12">
+            <div class="site-search">
+              <p><i class="material-icons tiny">location_on</i> Dhaka <i class="material-icons tiny">date_range</i> Saturday, 5 september, 2019 <i class="material-icons tiny">access_time</i> 50 min later</p>
             </div>
-        </nav>
-
+          </div>
+          <div class="col m3 s6">
+              <nav>
+                <div class="nav-wrapper">
+                  <form>
+                    <div class="input-field">
+                      <input id="search" type="search" required>
+                      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                      <i class="material-icons">close</i>
+                    </div>
+                  </form>
+                </div>
+              </nav>
+          </div>
+          <div class="col m3 s6">
+            <div class="footer-social-icons">
+                <ul class="social-icons">
+                    <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="col m2 s12">
+            <a href="login.html" class="waves-effect waves-light btn-small">Login</a>
+            <a href="register.html" class="waves-effect waves-light btn-small">Register</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- main navbar end-->
-    <!-- content topbar section start -->
+  </section>
+  <!-- search,login section end -->
+  <!-- content topbar section start -->
   <section class="container-wrapper">  
     <div class="container">
         <div class="section">
@@ -552,16 +596,1168 @@
   <!-- content sports section start -->
   <section class="container-sports-wrapper">  
     <div class="container">
-      <p>sk9o</p>
+      <!-- sports title start-->
+      <div class="row">
+        <div class="col s12">
+          <div class="sports-section-title">
+            <a href="#!">Sports</a>
+          </div>
+        </div>
+      </div>
+      <!-- sports title end-->
+      <div class="row">
+      <!-- sports left -->
+        <div class="col m4 s12">
+          <div class="row">
+            <div class="col s12">
+              <div class="sports-large">
+                <div class="card left-sports-card">
+                  <a href="#!">
+                    <div class="card-image">
+                        <img src="img/2.jpg" class="responsive-img">
+                    </div>
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly used mainly used</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur suscipit quaerat quod animi natus.......</p>
+                    </div>
+                  </a>
+                  <div class="left-sports-time">
+                    <p><i class="tiny material-icons">access_time</i> 1 hrs 30 min later</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle sports-card-bottom">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                    <div class="left-bottom-sports-time">
+                      <p><i class="tiny material-icons">access_time</i> 1 hrs 30 min later</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle sports-card-bottom">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                    <div class="left-bottom-sports-time">
+                      <p><i class="tiny material-icons">access_time</i> 1 hrs 30 min later | <i class="tiny material-icons">comment</i> 5</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      <!-- sports left -->
+      <!-- sports middle -->
+        <div class="col m4 s12">
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                    <div class="left-bottom-sports-time">
+                      <p><i class="tiny material-icons">comment</i> 5</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle sports-card-bottom">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                    <div class="left-bottom-sports-time">
+                      <p><i class="tiny material-icons">comment</i> 5</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle sports-card-bottom">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                    <div class="left-bottom-sports-time">
+                      <p><i class="tiny material-icons">comment</i> 5</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle sports-card-bottom">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                    <div class="left-bottom-sports-time">
+                      <p><i class="tiny material-icons">comment</i> 5</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle sports-card-bottom">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                    <div class="left-bottom-sports-time">
+                      <p><i class="tiny material-icons">comment</i> 5</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle sports-card-bottom">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                    <div class="left-bottom-sports-time">
+                      <p><i class="tiny material-icons">comment</i> 5</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      <!-- sports middle -->
+      <!-- sports right -->
+      <div class="col m4 s12 sports-tab-section">
+          <div class="row">
+            <div class="col s12">
+              <ul class="tabs tab-demo">
+                <li class="tab col s4"><a href="#test1">Top</a></li>
+                <li class="tab col s4"><a class="active" href="#test2">Viral</a></li>
+                <li class="tab col s4"><a href="#test3">Expire</a></li>
+              </ul>
+            </div>
+            <div id="test1" class="col s12">
+              <div class="collection">
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+              </div>
+              <div class="tab-read-more center-align">
+                <a class="waves-effect waves-light btn"><i class="material-icons right">more</i>More</a>
+              </div>
+            </div>
+            <div id="test2" class="col s12">
+              <div class="collection">
+                <a href="#!" class="collection-item"><span class="badge"><i class="tiny material-icons">comment</i> 1</span>Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item"><span class="badge"><i class="tiny material-icons">comment</i> 4</span>Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Alan</a>
+                <a href="#!" class="collection-item"><span class="badge"><i class="tiny material-icons">comment</i> 14</span>Lorem ipsum dolor sit amet.</a>
+              </div>
+              <div class="tab-read-more center-align">
+                <a class="waves-effect waves-light btn"><i class="material-icons right">more</i>More</a>
+              </div>
+            </div>
+            <div id="test3" class="col s12">
+              <div class="collection">
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+              </div>
+              <div class="tab-read-more center-align">
+                <a class="waves-effect waves-light btn"><i class="material-icons right">more</i>More</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- sports right -->
+      </div>
     </div>
   </section>
   <!-- content sports section end -->
-
-
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+  <!-- content media section start -->
+  <section class="container-media-wrapper">  
+    <div class="container">
+      <!-- sports title start-->
+      <div class="row">
+        <div class="col s12">
+          <div class="media-section-title">
+            <a href="#!">Entertainment</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- media main end -->
+        <div class="col m6 s12">
+          <div class="row">
+            <div class="col m6 s12">
+              <div class="sports-large">
+                <div class="card left-sports-card">
+                  <a href="#!">
+                    <div class="card-image">
+                        <img src="img/2.jpg" class="responsive-img">
+                    </div>
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col m6 s12">
+              <div class="sports-large">
+                <div class="card left-sports-card">
+                  <a href="#!">
+                    <div class="card-image">
+                        <img src="img/2.jpg" class="responsive-img">
+                    </div>
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- media main end -->
+        <!-- media middle start -->
+        <div class="col m3 s12">
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle media-card-bottom">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle media-card-bottom">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle media-card-bottom">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- media middle end -->
+      </div>
+    </div>
+  </section>    
+  <!-- content media section start -->
+  <!-- content joy section start -->
+  <section class="container-joy-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col m8 s12">
+            <div class="row"> 
+              <div class="col s12">
+                <div class="joy-section-title">
+                  <a href="#!">Joy</a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col m4 s12">
+                <div class="sports-large">
+                  <div class="card left-sports-card">
+                    <a href="#!">
+                      <div class="card-image">
+                          <img src="img/2.jpg" class="responsive-img">
+                      </div>
+                      <div class="card-content sports-card-content">
+                          <p class="joy-subtitle">Lorem ipsum</p>
+                          <a href="#!">Blockquotes are mainly</a>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col m4 s12">
+                <div class="sports-large">
+                  <div class="card left-sports-card">
+                    <a href="#!">
+                      <div class="card-image">
+                          <img src="img/2.jpg" class="responsive-img">
+                      </div>
+                      <div class="card-content sports-card-content">
+                          <p class="joy-subtitle">Lorem ipsum</p>
+                          <a href="#!">Blockquotes are mainly</a>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col m4 s12">
+                <div class="sports-large">
+                  <div class="card left-sports-card">
+                    <a href="#!">
+                      <div class="card-image">
+                          <img src="img/2.jpg" class="responsive-img">
+                      </div>
+                      <div class="card-content sports-card-content">
+                          <p class="joy-subtitle">Lorem ipsum</p>
+                          <a href="#!">Blockquotes are mainly</a>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 s12">
+             <div class="row"> 
+                <div class="col s12">
+                  <div class="photo-story-section-title">
+                    <a href="#!">Photo Story</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12">
+                  <div class="sports-large">
+                    <div class="card left-sports-card">
+                      <a href="#!">
+                        <div class="card-image">
+                            <img src="img/2.jpg" class="responsive-img">
+                        </div>
+                        <div class="card-content sports-card-content">
+                            <a href="#!">Blockquotes are mainly</a>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+          </div>
+        </div>
+      </div>
+  </section> 
+  <!-- content joy section end -->
+  <!-- content bangladesh section start -->
+  <section class="container-bangladesh-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col m8 s12">
+            <div class="row"> 
+              <div class="col s12">
+                <div class="bangladesh-section-title">
+                  <a href="#!">Bangladesh</a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col m6 s12">
+                <div class="sports-large">
+                  <div class="card left-bangladesh-card">
+                    <a href="#!">
+                      <div class="card-image">
+                          <img src="img/2.jpg" class="responsive-img">
+                      </div>
+                      <div class="card-content sports-card-content">
+                          <p class="bangladesh-subtitle">Lorem ipsum</p>
+                          <a href="#!">Blockquotes are mainly</a>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col m6 s12">
+                <div class="row">
+                  <!-- content middle single start -->
+                    <div class="col s12">
+                      <a href="#!">
+                        <div class="card horizontal card-middle card-bangladesh-first">
+                          <div class="card-image">
+                            <img src="img/3.jpg" class="responsive-img">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-content">
+                              <p>I am a very very simple card.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- content middle single end -->
+                    <!-- content middle single start -->
+                    <div class="col s12">
+                      <a href="#!">
+                        <div class="card horizontal card-middle">
+                          <div class="card-image">
+                            <img src="img/3.jpg" class="responsive-img">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-content">
+                              <p>I am a very very simple card.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- content middle single end -->
+                    <!-- content middle single start -->
+                    <div class="col s12">
+                      <a href="#!">
+                        <div class="card horizontal card-middle">
+                          <div class="card-image">
+                            <img src="img/3.jpg" class="responsive-img">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-content">
+                              <p>I am a very very simple card.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- content middle single end -->
+                    <!-- content middle single start -->
+                    <div class="col s12">
+                      <a href="#!">
+                        <div class="card horizontal card-middle">
+                          <div class="card-image">
+                            <img src="img/3.jpg" class="responsive-img">
+                          </div>
+                          <div class="card-stacked">
+                            <div class="card-content">
+                              <p>I am a very very simple card.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 s12"> 
+            <div class="row"> 
+              <div class="col s12">
+                <div class="photo-story-section-title">
+                  <a href="#!">Anything</a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12">
+                <div class="sports-large">
+                  <div class="card left-sports-card">
+                    <a href="#!">
+                      <div class="card-image">
+                          <img src="img/2.jpg" class="responsive-img">
+                      </div>
+                      <div class="card-content sports-card-content">
+                          <a href="#!">Blockquotes are mainly</a>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- content bangladesh section end -->
+  <!-- content opinion section end -->
+  <section class="container-opinion-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col m12 s12">
+          <div class="opinion-section-title">
+            <a href="#!">Opinion</a>
+          </div>
+        </div>
+        <div class="col m12 s12">
+          <div class="row">
+            <div class="col m3 s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card opnion-left-border">
+                  <a href="#!">
+                    <div class="card-content sports-card-content">
+                        <p class="bangladesh-subtitle">Lorem ipsum</p>
+                        <a href="#!">Blockquotes are mainly</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="opinion-card-bottom">
+                  <a>Anisul Haque | <i class=" tiny material-icons">access_time</i> 1 hour 30 min later</a>
+                </div>
+              </div>
+            </div>
+            <div class="col m3 s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card opnion-left-border">
+                  <a href="#!">
+                    <div class="card-content sports-card-content">
+                        <p class="bangladesh-subtitle">Lorem ipsum</p>
+                        <a href="#!">Blockquotes are mainly</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="opinion-card-bottom">
+                  <a>Anisul Haque | <i class=" tiny material-icons">access_time</i> 1 hour 30 min later</a>
+                </div>
+              </div>
+            </div>
+            <div class="col m3 s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card opnion-left-border">
+                  <a href="#!">
+                    <div class="card-content sports-card-content">
+                        <p class="bangladesh-subtitle">Lorem ipsum</p>
+                        <a href="#!">Blockquotes are mainly</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="opinion-card-bottom">
+                  <a>Anisul Haque | <i class=" tiny material-icons">access_time</i> 1 hour 30 min later</a>
+                </div>
+              </div>
+            </div>
+            <div class="col m3 s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card opnion-left-border">
+                  <a href="#!">
+                    <div class="card-content sports-card-content">
+                        <p class="bangladesh-subtitle">Lorem ipsum</p>
+                        <a href="#!">Blockquotes are mainly</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="opinion-card-bottom">
+                  <a>Anisul Haque | <i class=" tiny material-icons">access_time</i> 1 hour 30 min later</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- content opinion section end -->
+  <!-- content international section end -->
+  <section class="container-international-wrapper">
+    <div class="container">
+      <div class="row container-international-row">
+        <div class="col m4 s12">
+          <div class="row"> 
+            <div class="col s12">
+              <div class="international-section-title">
+                <a href="#!">International</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card">
+                  <a href="#!">
+                    <div class="card-image">
+                        <img src="img/2.jpg" class="responsive-img">
+                    </div>
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card">
+                  <a href="#!">
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card">
+                  <a href="#!">
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m4 s12">
+          <div class="row"> 
+            <div class="col s12">
+              <div class="abroad-section-title">
+                <a href="#!">Remote Migration</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card">
+                  <a href="#!">
+                    <div class="card-image">
+                        <img src="img/2.jpg" class="responsive-img">
+                    </div>
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card">
+                  <a href="#!">
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card">
+                  <a href="#!">
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m4 s12">
+          <div class="row"> 
+            <div class="col s12">
+              <div class="america-section-title">
+                <a href="#!">North America</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card">
+                  <a href="#!">
+                    <div class="card-image">
+                        <img src="img/2.jpg" class="responsive-img">
+                    </div>
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi natus.......</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card">
+                  <a href="#!">
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12">
+              <div class="sports-large">
+                <div class="card left-bangladesh-card">
+                  <a href="#!">
+                    <div class="card-content sports-card-content">
+                        <a href="#!">Blockquotes are mainly</a>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- content international section end -->
+  <!-- content slider-video section end -->
+  <section class="container-slider-video-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col m8 s12">
+          <div class="row">
+            <div class="col s12">
+              <div class="slider-video-section-title">
+                <a href="#!">Photo</a>
+              </div>
+            </div>
+          </div>
+          <div class="row slider-row">
+            <div class="col s12">
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="img/vs1.jpg" class="responsive-img"> <!-- random image -->
+                    <div class="caption center-align">
+                      <h3>This is our big Tagline!</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                      <a class="waves-effect waves-light btn white red-text lighten-1"><i class="material-icons right">more</i>Read More</a>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="img/vs2.jpg" class="responsive-img"> <!-- random image -->
+                    <div class="caption left-align">
+                      <h3>Left Aligned Caption</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                      <a class="waves-effect waves-light btn white red-text lighten-1"><i class="material-icons right">more</i>Read More</a>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="img/vs1.jpg" class="responsive-img"> <!-- random image -->
+                    <div class="caption right-align">
+                      <h3>Right Aligned Caption</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                      <a class="waves-effect waves-light btn white red-text lighten-1"><i class="material-icons right">more</i>Read More</a>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="img/vs2.jpg" class="responsive-img"> <!-- random image -->
+                    <div class="caption center-align">
+                      <h3>This is our big Tagline!</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                      <a class="waves-effect waves-light btn white red-text lighten-1"><i class="material-icons right">more</i>Read More</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m4 s12">
+          <div class="row">
+            <div class="col s12">
+              <div class="slider-photo-section-title">
+                <a href="#!">Video</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <a href="#!">  
+                <div class="card sidebar-card">
+                  <div class="card-image">
+                    <img src="img/4.jpg" class="responsive-img">
+                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">ondemand_video</i></a>
+                  </div>
+                  <div class="card-content">
+                    <a href="#!">I am a very simple card.</a>
+                  </div>
+                </div>
+              </a>  
+            </div>
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col s12">
+              <a href="#!">
+                <div class="card horizontal card-middle ">
+                  <div class="card-image">
+                    <img src="img/3.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>I am a very very simple card.</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- content slider-video section end -->
+  <!-- content mixed section end -->
+  <section class="container-mixed-wrapper">
+    <div class="container">
+      <div class="row container-international-row">
+        <div class="col m3 s12">
+          <div class="row"> 
+            <div class="col s12">
+              <div class="mixed-section-title">
+                <a href="#!">Economics</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <div class="collection mixed-collection">
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m3 s12">
+          <div class="row"> 
+            <div class="col s12">
+              <div class="mixed-section-title">
+                <a href="#!">Lifestyle</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <div class="collection mixed-collection">
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m3 s12">
+          <div class="row"> 
+            <div class="col s12">
+              <div class="mixed-section-title">
+                <a href="#!">Science & Technology</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <div class="collection mixed-collection">
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m3 s12">
+          <div class="row"> 
+            <div class="col s12">
+              <div class="mixed-section-title">
+                <a href="#!">Education</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <div class="collection mixed-collection">
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+                <a href="#!" class="collection-item">Lorem ipsum dolor sit amet.</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- content mixed section end -->
+  <!-- content footer-logo section start -->
+  <section class="container-footer-logo-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col m4 s12">
+          <div class="footer-logo">
+            <a href="index.html"><img src="img/foot-logo.png" alt="footer-logo" class="responsive-img"></a>
+          </div>
+        </div>
+        <div class="col m5 s12">
+          <div class="download-title right-align">
+            <p>Mobile apps download</p>
+          </div>
+        </div>  
+        <div class="col m3 s12">
+          <div class="download-icon">
+            <a href="#!"><img src="img/Apple-App-Store-_logo.png" alt="footer-logo" class="responsive-img"></a>
+            <a href="#!"><img src="img/Android-App-Store-logo-Uberpong.jpg" alt="footer-logo" class="responsive-img"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- content footer-logo section end -->
+  <!-- content footer-top section start -->
+  <section class="container-footer-top-wrapper">
+    <div class="container">
+      <div class="row footer-bottom-main-row">
+        <div class="col s12">
+          <div class="footer-top-main">
+            <div class="row">
+              <div class="col m2 s6">
+                <ul>
+                  <li><a href="#!">Lorem</a></li>
+                  <li><a href="#!">Lorem</a></li>
+                  <li><a href="#!">Lorem</a></li>
+                </ul>
+              </div>
+              <div class="col m2 s6">
+                <ul>
+                  <li><a href="#!">Lorem</a></li>
+                  <li><a href="#!">Lorem</a></li>
+                  <li><a href="#!">Lorem</a></li>
+                </ul>
+              </div>
+              <div class="col m2 s6">
+                <ul>
+                  <li><a href="#!">Lorem</a></li>
+                  <li><a href="#!">Lorem</a></li>
+                  <li><a href="#!">Lorem</a></li>
+                </ul>
+              </div>
+              <div class="col m2 s6">
+                <ul>
+                  <li><a href="#!">Lorem</a></li>
+                  <li><a href="#!">Lorem</a></li>
+                  <li><a href="#!">Lorem</a></li>
+                </ul>
+              </div>
+              <div class="col m2 s6">
+                <ul>
+                  <li><a href="#!">Lorem</a></li>
+                  <li><a href="#!">Lorem</a></li>
+                  <li><a href="#!">Lorem</a></li>
+                </ul>
+              </div>
+              <div class="col m2 s6">
+                <ul>
+                  <li><a href="#!"><span class="footer-photo"><i class="tiny material-icons">camera_alt</i></span> Lorem</a></li>
+                  <li><a href="#!"><span class="footer-video"><i class="tiny material-icons">videocam</i></span> Lorem</a></li>
+                  <li><a href="#!"><span class="footer-archive"><i class="tiny material-icons">archive</i></span> Lorem</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom-main">
+            <div class="row footer-bottom-main-row">
+              <div class="col m8 s12">
+                <div class="row footer-bottom-main-row">
+                  <div class="col s12">
+                    <div class="bottom-menu-top">
+                      <ul>
+                        <li><a href="#!">Lorem</a></li>
+                        <li><a href="#!">Lorem</a></li>
+                        <li><a href="#!">Lorem</a></li>
+                        <li><a href="#!">Lorem</a></li>
+                        <li><a href="#!">Lorem</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row footer-bottom-main-row">
+                    <div class="col s12 bottom-menu-bottom-col">
+                      <div class="bottom-menu-bottom">
+                        <ul>
+                          <li>
+                            <a href="#!">
+                              <span>
+                                <img src="img/f1.png" alt="footer" class="responsive-img">
+                              </span>Lorem
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#!">
+                              <span>
+                                <img src="img/f2.png" alt="footer" class="responsive-img">
+                              </span>Lorem
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#!">
+                              <span>
+                                <img src="img/f3.png" alt="footer" class="responsive-img">
+                              </span>Lorem
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#!">
+                              <span>
+                                <img src="img/f4.png" alt="footer" class="responsive-img">
+                              </span>Lorem
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#!">
+                              <span>
+                                <img src="img/f5.png" alt="footer" class="responsive-img">
+                              </span>Lorem
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#!">
+                              <span>
+                                <img src="img/f6.png" alt="footer" class="responsive-img">
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+              </div>  
+              <div class="col m4 s12">
+                <div class="footer-bottom-desc">
+                  <p>Prothom Alo is the highest circulated and most read newspaper in Bangladesh. The online portal of Prothom Alo is the most visited Bangladeshi and Bengali website in the world. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- content footer-logo section end -->
+  <!-- content footer-bottom section start -->
+  <section class="container-footer-bottom-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="footer-main-bottom">
+            <p>@ Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, itaque.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quaerat, iusto natus! Omnis, maxime, cum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- content footer-bottom section end -->
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
 </body>
 
