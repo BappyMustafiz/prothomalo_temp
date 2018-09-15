@@ -51,46 +51,44 @@
   </div>
   <!-- main navbar end-->
   <!-- search,login section start -->
-  <section class="container-wrapper">  
+  <section class="search-container-wrapper">  
     <div class="container">
-    <div class="section">
-        <div class="row">
-          <div class="col m4 s12">
-            <div class="site-search">
-              <p><i class="material-icons tiny">location_on</i> Dhaka <i class="material-icons tiny">date_range</i> Saturday, 5 september, 2019 <i class="material-icons tiny">access_time</i> 50 min later</p>
+      <div class="section">
+          <div class="row">
+            <div class="col m4 s12">
+              <div class="site-search">
+                <p><i class="material-icons tiny">location_on</i> Dhaka <i class="material-icons tiny">date_range</i> Saturday, 5 september, 2019 <i class="material-icons tiny">access_time</i> 50 min later</p>
+              </div>
             </div>
-          </div>
-          <div class="col m3 s6">
-              <nav>
-                <div class="nav-wrapper">
-                  <form>
-                    <div class="input-field">
-                      <input id="search" type="search" required>
-                      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                      <i class="material-icons">close</i>
-                    </div>
-                  </form>
-                </div>
-              </nav>
-          </div>
-          <div class="col m3 s6">
-            <div class="footer-social-icons">
-                <ul class="social-icons">
-                    <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-                    <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-                    <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
-                    <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
-                    <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
-                </ul>
+            <div class="col m4 s12">
+                <nav class="search-nav">
+                  <div class="nav-wrapper">
+                    <form>
+                      <div class="input-field">
+                        <input id="search" type="search" required placeholder="Search...">
+                        <label class="label-icon" for="search"><i class="material-icons black-text">search</i></label>
+                        <i class="material-icons">close</i>
+                      </div>
+                    </form>
+                  </div>
+                </nav>
             </div>
-          </div>
-          <div class="col m2 s12">
-            <a href="login.html" class="waves-effect waves-light btn-small">Login</a>
-            <a href="register.html" class="waves-effect waves-light btn-small">Register</a>
+            <div class="col m2 s12">
+              <ul class="social-icons right-align">
+                  <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                  <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                  <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                  <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+            <div class="col m2 s12">
+              <div class="login-register-button right-align">
+                <a href="login.html" class="waves-effect waves-light btn-small">Login</a>
+                <a href="register.html" class="waves-effect waves-light btn-small">Register</a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
     </div>
   </section>
   <!-- search,login section end -->
@@ -106,7 +104,7 @@
                             <div class="left-main-news">
                                 <a href="#!">
                                     <img src="img/1.jpg" alt="img-one" class="responsive-img">
-                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <p class="left-align">Lorem ipsum dolor sit amet.</p>
                                 </a>
                             </div>
                         </div>
@@ -1754,6 +1752,11 @@
     </div>
   </section>
   <!-- content footer-bottom section end -->
+  <!-- scroll top to bottom -->
+  <div class="scroll-top">
+    <a href="javascript:" id="return-to-top"><i class="tiny material-icons">keyboard_arrow_up</i></a>
+  </div>
+  <!-- scroll top to bottom -->
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
